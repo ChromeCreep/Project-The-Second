@@ -958,13 +958,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 9
-  jumpHeight: 16
+  jumpHeight: 18
   groundedChecker: {fileID: 379503944}
   isGrounded: 1
   jumpBufferTimer: 0.1
   fastFallSpeed: 6
   yVelocity: 0
   coyoteTimer: 0.05
+  dashLength: 0.5
+  dashDistance: 12
+  canDash: 1
+  isDashing: 0
   energyAmount: 3
   hasEnergy: 0
 --- !u!61 &640606263
